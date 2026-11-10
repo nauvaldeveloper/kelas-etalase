@@ -7,13 +7,13 @@
   --bg: #fbfaf7;
   --paper: #f2efe8;
   --ink: #18181b;
-  --muted: #5f5d58;
+  --muted: #4b4944;
   --line: #e2ded4;
   --yellow: #f5c518;
   --yellow-2: #e0b20b;
   --ok: #217a45;
   --bad: #b3261e;
-  --display: 'Syne', 'Arial Black', system-ui, sans-serif;
+  --display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
   --body: 'DM Sans', 'Segoe UI', system-ui, sans-serif;
   --mono: 'DM Mono', ui-monospace, Consolas, monospace;
 }
@@ -22,7 +22,7 @@
 html { scroll-behavior: smooth; scroll-padding-top: 76px; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
 img { max-width: 100%; display: block; }
-h1, h2, h3 { font-family: var(--display); font-weight: 800; line-height: 1.04; margin: 0; letter-spacing: -.02em; text-wrap: balance; }
+h1, h2, h3 { font-family: var(--display); font-weight: 800; line-height: 1.08; margin: 0; letter-spacing: -.03em; text-wrap: balance; }
 h2 { font-size: clamp(1.7rem, 3.8vw, 2.4rem); }
 p { margin: 0; }
 a { color: inherit; }
@@ -53,7 +53,7 @@ button, input, select { font: inherit; color: inherit; }
 .hero { padding: 40px 0 64px; }
 .hero__in { display: grid; gap: 32px; }
 @media (min-width: 960px) { .hero__in { grid-template-columns: 1.25fr 1fr; gap: 56px; align-items: start; } .hero { padding: 64px 0 88px; } }
-.hero h1 { font-size: clamp(2rem, 4.2vw, 3.15rem); line-height: 1.08; margin-bottom: 18px; }
+.hero h1 { font-size: clamp(2.3rem, 5vw, 3.7rem); line-height: 1.02; margin-bottom: 18px; }
 .hero h1 span { background: linear-gradient(transparent 62%, var(--yellow) 62%); }
 .lead { font-size: 1.1rem; color: var(--muted); max-width: 52ch; margin-bottom: 20px; }
 .meta { list-style: none; padding: 0; margin: 0 0 28px; display: flex; flex-wrap: wrap; gap: 8px; }
