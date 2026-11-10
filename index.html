@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kelas Etalase — Workshop Gratis Foto Produk Pakai HP</title>
+  <meta name="description" content="Workshop gratis 3 jam untuk UMKM Bandung: foto produk yang bikin orang berhenti scroll, cukup pakai HP. Kuota terbatas, daftar sekarang." />
+  <meta name="theme-color" content="#18181b" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2318181b'/%3E%3Cpath d='M14 24V14h10M40 14h10v10M50 40v10H40M24 50H14V40' stroke='%23f5c518' stroke-width='4' fill='none'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="demo-bar" id="demoBar" hidden>Website concept by Nauval Dev · acara &amp; penyelenggara fiktif · <a id="demoLink" target="_blank" rel="noopener">Hubungi</a></div>
+
+  <header class="top">
+    <div class="wrap top__in">
+      <span class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 12V5h7M20 5h7v7M27 20v7h-7M12 27H5v-7"/></svg>Kelas Etalase</span>
+      <a href="#daftar" class="btn btn--ink btn--sm">Daftar gratis</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero__in">
+        <div class="hero__copy">
+          <p class="label" id="eventLine">Workshop gratis · Bandung</p>
+          <h1>Foto produk yang bikin orang berhenti scroll. <span>Cukup pakai HP.</span></h1>
+          <p class="lead">Tiga jam praktik langsung untuk pemilik UMKM: cahaya jendela, sudut foto, latar murah, dan edit 5 menit. Bawa HP dan satu produkmu, pulang dengan foto katalog yang siap diunggah.</p>
+          <ul class="meta" id="meta"></ul>
+          <figure class="vf" aria-label="Contoh memotret produk dengan HP">
+            <img src="assets/img/hero-donuts.webp" alt="Tangan memotret donat di meja kayu menggunakan HP" width="1024" height="683" fetchpriority="high" />
+            <span class="vf__grid" aria-hidden="true"></span>
+            <span class="vf__c vf__c--tl"></span><span class="vf__c vf__c--tr"></span><span class="vf__c vf__c--bl"></span><span class="vf__c vf__c--br"></span>
+            <figcaption class="vf__hud">ISO 100 · 1/125 · f/1.8 · cahaya jendela</figcaption>
+          </figure>
+        </div>
+
+        <aside class="card" id="daftar" aria-labelledby="formTitle">
+          <div id="formWrap">
+            <h2 id="formTitle">Amankan kursimu</h2>
+            <p class="seats" id="seats"></p>
+            <form id="form" novalidate>
+              <label>Nama lengkap<input id="f-name" autocomplete="name" required /></label>
+              <label>Nomor WhatsApp<input id="f-wa" inputmode="tel" autocomplete="tel" placeholder="08xx" required /><small>Link grup & pengingat acara dikirim ke nomor ini.</small></label>
+              <label>Jenis usaha<select id="f-biz" required>
+                <option value="">Pilih jenis usaha</option>
+                <option>Makanan & minuman</option><option>Fashion & aksesoris</option><option>Kosmetik & skincare</option>
+                <option>Kerajinan & dekorasi</option><option>Lainnya</option>
+              </select></label>
+              <fieldset><legend>Sudah jualan online?</legend>
+                <label class="radio"><input type="radio" name="online" value="Sudah, di marketplace" checked /> Sudah, di marketplace</label>
+                <label class="radio"><input type="radio" name="online" value="Baru di Instagram/WhatsApp" /> Baru di Instagram / WhatsApp</label>
+                <label class="radio"><input type="radio" name="online" value="Belum" /> Belum</label>
+              </fieldset>
+              <label class="check"><input type="checkbox" id="f-ok" /> Saya bersedia dihubungi lewat WhatsApp untuk info acara ini.</label>
+              <p class="err" id="err" hidden></p>
+              <button class="btn btn--yellow btn--block" type="submit">Daftar gratis</button>
+              <p class="fine">Data hanya dipakai untuk keperluan workshop ini, tidak dibagikan ke pihak lain.</p>
+            </form>
+          </div>
+          <div id="doneWrap" hidden></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="learn">
+      <div class="wrap">
+        <p class="label">Materi</p>
+        <h2>Empat sesi, semuanya praktik</h2>
+        <ol class="modules">
+          <li><span class="mono">09.00</span><h3>Cahaya jendela</h3><p>Kenapa jam 9 pagi di dekat jendela lebih bagus dari ring light, dan cara memantulkan cahaya pakai kertas putih.</p></li>
+          <li><span class="mono">09.45</span><h3>Sudut & komposisi</h3><p>Flat lay, sudut 45°, dan close-up. Grid sepertiga di kamera HP, dan kapan produk boleh di tengah.</p></li>
+          <li><span class="mono">10.30</span><h3>Latar seharga Rp20.000</h3><p>Karton, kain, dan papan kayu bekas. Properti pendukung yang membuat produk terlihat dipakai, bukan dipajang.</p></li>
+          <li><span class="mono">11.15</span><h3>Edit 5 menit</h3><p>Pencahayaan, warna putih yang benar, dan crop untuk feed 4:5 serta foto utama marketplace 1:1.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="fit">
+      <div class="wrap fit__in">
+        <div class="fit__col"><h3>Cocok untuk kamu yang</h3>
+          <ul class="yes"><li>Jualan makanan, fashion, kosmetik, atau kerajinan</li><li>Masih foto produk asal jepret di atas meja</li><li>Tidak punya kamera, cuma HP</li><li>Ingin foto katalog yang seragam dan rapi</li></ul></div>
+        <div class="fit__col"><h3>Kurang cocok kalau</h3>
+          <ul class="no"><li>Sudah rutin pakai kamera mirrorless dan lighting studio</li><li>Mencari kelas editing video atau Reels</li></ul></div>
+      </div>
+    </section>
+
+    <section class="mentor">
+      <div class="wrap mentor__in">
+        <div class="mentor__mark" aria-hidden="true">RA</div>
+        <div>
+          <p class="label">Pemateri</p>
+          <h2>Rara Andini</h2>
+          <p class="mentor__role">Fotografer produk untuk UMKM kuliner & fashion di Bandung (tokoh fiktif untuk demo)</p>
+          <p>Enam tahun memotret katalog untuk lebih dari 200 brand lokal. Rara terbiasa bekerja dengan peralatan seadanya, jadi semua teknik di kelas ini bisa langsung kamu coba di rumah.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="wrap faq__in">
+        <div><p class="label">FAQ</p><h2>Sebelum daftar</h2></div>
+        <div id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="last">
+      <div class="wrap last__in">
+        <h2>Kuota terbatas untuk satu ruangan.</h2>
+        <a href="#daftar" class="btn btn--yellow">Daftar gratis sekarang</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot"><div class="wrap">Kelas Etalase · Foto: “Photographing Donuts” (CC0, via rawpixel)</div></footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
